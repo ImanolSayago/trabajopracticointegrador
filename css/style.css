@@ -1,0 +1,304 @@
+*
+{
+    box-sizing: border-box;
+}
+
+body
+{
+    background-color: #bbb8b849;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*.generalgrande
+{
+    width: 90%;      
+    max-width: 1200px; 
+    margin: 0 auto;  
+}
+*/
+
+nav
+{
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    justify-content: space-around;
+    align-items: center;
+    position: sticky;
+    top: 0;
+}
+
+nav div ul 
+{
+    display: flex;
+    
+    align-items: center;
+    list-style: none;
+}
+
+nav div ul li a
+{
+    margin: 20px;
+    text-decoration: none;
+    color: #15163D;
+    font-size: 18px;
+}
+nav div ul li a:hover
+{
+    border-bottom: 1px solid #15163D;
+    font-size: 19px;
+}
+
+div.cont-logo img
+{
+    width: 80px;
+    
+    
+}
+
+ #cont1
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 80px;
+}
+
+.img-cont1
+{
+    margin-top: 220px;
+}
+
+div.experiencia-marca h2
+{
+    font-size: 70px;
+    color: #15163D;
+}
+
+
+div.experiencia-marca p
+{
+    color: #414166;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    font-size: 20px;
+}
+
+div
+{
+    margin-top: 20px;
+}
+
+div.experiencia-marca a
+{
+font-size: 20px;
+background-color: #04146C;
+color: rgb(255, 255, 255);
+padding: 10px;
+border-radius: 5px;
+text-decoration: none;
+margin-top: 20px;
+}
+div.experiencia-marca a:hover
+{
+    padding: 12px;
+}
+
+#cont2
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 200px;
+}
+.diseño-marca
+{
+    margin-top: 0;
+}
+
+.diseño-marca h2
+{
+    margin-top: 0;
+    font-size: 70px;
+    color: #15163D;
+}
+
+.diseño-marca p
+{
+    color: #414166;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    font-size: 20px;
+}
+
+#cont3
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 200px;
+}
+
+.desarrollo-marca h2
+{
+    margin-top: 0;
+    font-size: 70px;
+    color: #15163D;
+}
+
+.desarrollo-marca p
+{
+    color: #414166;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    font-size: 20px;
+}
+
+#supertestimonios
+{
+    margin-top: 180px;
+}
+
+#testimonios
+{
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+#testimonios section
+{
+    width: 400px;
+    height: 400px;
+}
+
+#testimonios section img
+{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-top: 40px;
+}
+
+#testimonios section
+{
+    background-color: #EEEEEE;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.445);
+}
+
+#testimonios section h4
+{
+    color: #15163D;
+    font-size: 25px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #04146C;
+}
+
+#testimonios section p
+{
+    color: #15163D;
+    font-size: 20px;
+    font-style: italic;
+}
+
+#cont4
+{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 200px;
+}
+
+.forma-equipo h2
+{
+    margin-top: 0;
+    font-size: 70px;
+    color: #15163D;
+}
+
+.forma-equipo a
+{
+    font-size: 20px;
+    background-color: #04146C;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+.forma-equipo a:hover
+{
+    padding: 12px;
+}
+
+.forma-equipo p
+{
+    color: #414166;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    font-size: 20px;
+}
+
+#footer
+{
+    display: flex;
+    justify-content: start;
+    background-color: #15163D;
+    color: white;
+    width: 100%;
+    height: 300px;
+}
+#footer div
+{
+    margin-left: 20px;
+    
+}
+
+#footer div ul
+{
+    list-style: none;
+}
+
+#footer div ul a
+{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+#footer div ul li
+{
+    margin-top: 20px;
+}
+
+div a
+{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    margin-top: 30px;
+}
+div a:hover
+{
+    border-bottom: 1px solid #fff;
+}
+
+#footer div
+{
+    margin-left: 50px;
+}
+
+#supertestimonios h3
+{
+    text-align: center;
+    margin-bottom: -150px;
+    font-size: 60px;
+    color: #15163D;
+    
+}
+
